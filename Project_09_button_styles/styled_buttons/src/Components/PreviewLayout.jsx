@@ -7,7 +7,7 @@ export default function PreviewLayout (props) {
         <>
             <h1>Buttons</h1>
             <div className = "PreviewLayout">
-                <Button>Default</Button>
+                <Button variant = "outline" size = "sm" color = "danger">Default</Button>
             </div>
         </>
     );

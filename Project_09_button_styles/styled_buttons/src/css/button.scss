@@ -100,8 +100,15 @@ button {
     &.danger {
         background: #D32F2F;
         color: #fff;
+        &.outline {
+            background: #0000;
+            border: 1px solid #D32F2F;
+            color: #D32F2F;
+        }
         &:hover, &:focus {
             background:#9A0007;
+            color: #fff;
         }
+        
     }
 }

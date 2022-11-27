@@ -1,0 +1,11 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+#root {
+    height: max-content;
+    min-height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgb(147, 231, 254), rgb(114, 182, 224));
+}

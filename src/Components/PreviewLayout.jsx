@@ -5,8 +5,9 @@ import Button from "./Button.jsx";
 export default function PreviewLayout (props) {
     return (
         <>
-            <h1>Buttons</h1>
+            
             <div className = "PreviewLayout">
+                <h1>Buttons</h1>
                 <div>
                     <div>
                         <span>{"<Button />"}</span>
@@ -118,8 +119,12 @@ export default function PreviewLayout (props) {
                     Checkout this project on github: <a href = "git@github.com:maksimphono/styled_buttons.git">git@github.com:maksimphono/styled_buttons.git</a> (all last code located in the branch 'feature').
                     Will be glad, if you rate my work {"😊"}
                 </section>
+                
             </div>
-
+            <footer>
+                My name : Maksim Phono<br/>
+                Project on Github: <a href = "git@github.com:maksimphono/styled_buttons.git">git@github.com:maksimphono/styled_buttons.git</a>
+            </footer>
         </>
     );
 }
